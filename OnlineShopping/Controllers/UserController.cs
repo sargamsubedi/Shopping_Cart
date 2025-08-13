@@ -13,7 +13,7 @@ using OnlineShopping.Data;
 using OnlineShopping.Models;
 
 namespace OnlineShopping.Controllers
-
+// Tryin to commit the code for UserController
 {
     [Authorize]
     public class UserController : Controller
