@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36310.24 d17.14
+VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShopping", "OnlineShopping\OnlineShopping.csproj", "{4DAF33B9-3CCF-40E8-84C5-493C268ABDAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShopping.WebAPI", "OnlineShopping.WebAPI\OnlineShopping.WebAPI.csproj", "{B5721A04-FC3F-4B6B-AFF4-16816DA4E00E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShopping.Core", "OnlineShopping.Core\OnlineShopping.Core.csproj", "{81515EC1-0B22-49AB-8AE6-2831AFEE21A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{4DAF33B9-3CCF-40E8-84C5-493C268ABDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DAF33B9-3CCF-40E8-84C5-493C268ABDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DAF33B9-3CCF-40E8-84C5-493C268ABDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5721A04-FC3F-4B6B-AFF4-16816DA4E00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5721A04-FC3F-4B6B-AFF4-16816DA4E00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5721A04-FC3F-4B6B-AFF4-16816DA4E00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5721A04-FC3F-4B6B-AFF4-16816DA4E00E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81515EC1-0B22-49AB-8AE6-2831AFEE21A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81515EC1-0B22-49AB-8AE6-2831AFEE21A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81515EC1-0B22-49AB-8AE6-2831AFEE21A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81515EC1-0B22-49AB-8AE6-2831AFEE21A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
