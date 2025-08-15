@@ -15,5 +15,6 @@ namespace OnlineShopping.WebAPI.Data
         }
 
         public DbSet<OnlineShopping.Core.Category> Category { get; set; } = default!;
+        public DbSet<OnlineShopping.Core.Product> Product { get; set; } = default!;
     }
 }
